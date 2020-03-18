@@ -1,0 +1,41 @@
+body {
+  background: #dcdcdd;
+  font-family: poppins;
+}
+.form {
+  width: 500px;
+  margin: 8% auto 0;
+  height: 350px;
+  padding: 50px;
+  background: #dcdcdd;
+  box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.7),
+    7px 7px 20px 0 rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+.form h1 {
+  color: darkorange;
+}
+.input1 {
+  width: 80%;
+  height: 40px;
+  margin-bottom: 30px;
+  border-radius: 25px;
+  box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.7),
+    7px 7px 20px 0 rgba(0, 0, 0, 0.7);
+  border: none;
+  background: #dcdcdd;
+  text-align: center;
+}
+
+.input2 {
+  color: darkorange;
+  width: 50%;
+  height: 40px;
+  margin-bottom: 30px;
+  border-radius: 25px;
+  box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.7),
+    7px 7px 20px 0 rgba(0, 0, 0, 0.7);
+  border: none;
+  background: #dcdcdd;
+  text-align: center;
+}

@@ -1,0 +1,36 @@
+.h1 {
+  text-align: center;
+  color: #fff;
+}
+
+.container {
+  width: 350px;
+  overflow: auto;
+  margin: 107px auto;
+  background: #e2346fbd;
+  padding-bottom: 40px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.col {
+  float: left;
+  margin: 10px;
+  height: 70px;
+  width: 70px;
+  font-size: 55px;
+  background-color: ghostwhite;
+  color: rgb(226, 109, 109);
+  text-align: center;
+  border-radius: 5px;
+}
+
+.border {
+  margin-left: 6%;
+}
+.game {
+  text-align: center;
+}
+.foto {
+  text-align: center;
+}
