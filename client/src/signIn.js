@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { withRouter } from 'react-router-dom';
 import './sign.css';
 class login extends Component {
   constructor(props) {
@@ -40,6 +41,7 @@ class login extends Component {
       console.log(response.status);
       if (response.status === 200) {
         alert('logged-in');
+        this.props.history.push('game');
       } else if (response.status === 403) {
         alert('name and password does not exist');
       }
@@ -99,4 +101,4 @@ class login extends Component {
     );
   }
 }
-export default login;
+export default withRouter(login);
