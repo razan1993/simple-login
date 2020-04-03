@@ -8,7 +8,25 @@ function Game() {
 
   const [player, setPlayer] = useState(0);
 
-  const myFunction = index => {
+  //
+  const myFunction = (index) => {
+    if (player === 0) {
+      ways[index - 1] = 1; // set ways
+      document.getElementById(`div${index}`).innerHTML = 'X';
+      setPlayer(1);
+    }
+    if (player === 1) {
+      ways[index - 1] = 0;
+      document.getElementById(`div${index}`).innerHTML = 'O';
+      setPlayer(0);
+    }
+    setWays(ways);
+
+    check();
+  };
+
+  //
+  const myFunction = (index) => {
     if (player === 0) {
       ways[index - 1] = 1; // set ways
       document.getElementById(`div${index}`).innerHTML = 'X';
