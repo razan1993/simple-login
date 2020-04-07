@@ -63,61 +63,100 @@ function Game() {
     ) {
       if (player === 1) {
         alert('the winner is O');
+        player2 = player2 + 1;
       } else {
         alert('the winner is X');
+        player1 = player1 + 1;
       }
+      alert('play new game');
     } else if (
       (ways[3] === 1 && ways[4] === 1 && ways[5] === 1) ||
       (ways[3] === 0 && ways[4] === 0 && ways[5] === 0)
     ) {
       if (player === 1) {
         alert('the winner is O');
+        player2 = player2 + 1;
       } else {
         alert('the winner is X');
+        player1 = player1 + 1;
       }
+      alert('play new game');
     } else if (
       (ways[6] === 1 && ways[7] === 1 && ways[8] === 1) ||
       (ways[6] === 0 && ways[7] === 0 && ways[8] === 0)
     ) {
       if (player === 1) {
         alert('the winner is O');
+        player2 = player2 + 1;
       } else {
         alert('the winner is X');
+        player1 = player1 + 1;
       }
+      alert('play new game');
 
+      //
+    } else if (
+      (ways[0] === 1 && ways[3] === 1 && ways[6] === 1) ||
+      (ways[0] === 0 && ways[3] === 0 && ways[6] === 0)
+    ) {
+      if (player === 1) {
+        alert('the winner is O');
+        player2 = player2 + 1;
+      } else {
+        alert('the winner is X');
+        player1 = player1 + 1;
+      }
+      alert('play new game');
+    } else if (
+      (ways[1] === 1 && ways[4] === 1 && ways[7] === 1) ||
+      (ways[0] === 0 && ways[4] === 0 && ways[7] === 0)
+    ) {
       //
       if (player === 1) {
         alert('the winner is O');
+        player2 = player2 + 1;
       } else {
         alert('the winner is X');
+        player1 = player1 + 1;
       }
+      alert('play new game');
     } else if (
       (ways[2] === 1 && ways[5] === 1 && ways[8] === 1) ||
       (ways[2] === 0 && ways[5] === 0 && ways[8] === 0)
     ) {
       if (player === 1) {
         alert('the winner is O');
+        player2 = player2 + 1;
       } else {
         alert('the winner is X');
+        player1 = player1 + 1;
       }
+      alert('play new game');
     } else if (
       (ways[0] === 1 && ways[4] === 1 && ways[8] === 1) ||
       (ways[0] === 0 && ways[4] === 0 && ways[8] === 0)
     ) {
       if (player === 1) {
         alert('the winner is O');
+        player2 = player2 + 1;
       } else {
         alert('the winner is X');
+        player1 = player1 + 1;
       }
+      alert('play new game');
     } else if (
       (ways[2] === 1 && ways[4] === 1 && ways[6] === 1) ||
       (ways[2] === 0 && ways[4] === 0 && ways[6] === 0)
     ) {
       if (player === 1) {
         alert('the winner is O');
+        player2 = player2 + 1;
       } else {
         alert('the winner is X');
+        player1 = player1 + 1;
       }
+      alert('play new game');
+
       //
     }
   };
