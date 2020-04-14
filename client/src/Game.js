@@ -25,23 +25,6 @@ function Game() {
     check();
   };
 
-  //
-  // const myFunction = (index) => {
-  //   if (player === 0) {
-  //     ways[index - 1] = 1; // set ways
-  //     document.getElementById(`div${index}`).innerHTML = 'X';
-  //     setPlayer(1);
-  //   }
-  //   if (player === 1) {
-  //     ways[index - 1] = 0;
-  //     document.getElementById(`div${index}`).innerHTML = 'O';
-  //     setPlayer(0);
-  //   }
-  //   setWays(ways);
-
-  //   check();
-  // };
-
   // const condition=(a,b,c)=>{
   //   if (
   //     (ways[a] === 1 && ways[b] === 1 && ways[c] === 1) ||
